@@ -16,7 +16,7 @@ echo $hostname > /etc/hostname
 sudo apt-get update
 
 # Install required packages
-apt-get install -y python python-pip python-virtualenv python-dev mongodb git uwsgi uwsgi-plugin-python nginx openssh-server ntp
+apt-get install -y python python-pip python-virtualenv python-dev mongodb git uwsgi uwsgi-plugin-python nginx openssh-server ntp > /dev/null
 
 # Configure timezone
 sudo timedatectl set-timezone Europe/Oslo
