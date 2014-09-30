@@ -3,7 +3,7 @@
 # This Script will set up the environment required for vUPS for a fresh Ubuntu Server 14.04
 clear
 
-echo "Welcome to the vUPS Initialization Script"
+echo "Welcome to the <codename> Initialization Script"
 
 # Set hostname
 echo "Enter hostname (FQDN), followed by [ENTER]:"
