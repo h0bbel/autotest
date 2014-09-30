@@ -1,0 +1,9 @@
+server {
+    listen               443;
+    ssl                  on;
+    ssl_certificate      /etc/ssl/certs/myssl.crt;
+    ssl_certificate_key  /etc/ssl/private/myssl.key;
+    server_name SERVER_NAME.com;
+    location / {
+    }
+}
