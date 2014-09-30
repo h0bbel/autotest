@@ -13,7 +13,7 @@ echo $hostname > /etc/hostname
 #hostname -F /etc/hostname
 
 # Update the Ubuntu Repository
-sudo apt-get update
+sudo apt-get update > /dev/null
 
 # Install required packages
 apt-get install -y python python-pip python-virtualenv python-dev mongodb git uwsgi uwsgi-plugin-python nginx openssh-server ntp > /dev/null
